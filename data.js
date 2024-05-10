@@ -57,6 +57,28 @@ export const TimelineData = [
     author: "Charles W. Bachman",
   },
   {
+    timelabel: "1960s",
+    icon: "fas fa-database bg-blue",
+    resaltHeader: "Modelo de Datos Jerárquico",
+    header: "Desarrollo del Modelo de Datos Jerárquico",
+    text: "El modelo de datos jerárquico es uno de los primeros enfoques para organizar datos en una estructura de árbol, con registros que se organizan en forma de jerarquía padre-hijo.",
+    images:["/img/jerarquico.webp"],
+    mainColor: "red",
+    iconColor: "blue",
+    author: "Varios"
+  },
+  {
+    timelabel: "1969",
+    icon: "fas fa-database bg-blue",
+    resaltHeader: "Modelo de Datos de Red",
+    header: "Propuesta del Modelo de Datos de Red",
+    text: "El modelo de datos de red es introducido como una alternativa al modelo jerárquico, permitiendo relaciones muchos a muchos y una estructura más flexible para representar datos interconectados.",
+    images:["/img/redes.webp"],
+    mainColor: "blue",
+    iconColor: "red",
+    author: "Charles Bachman"
+  },
+  {
     timelabel: "1970",
     icon: "fas fa-database bg-blue",
     resaltHeader: "Revolución con el modelo relacional",
@@ -196,6 +218,17 @@ export const TimelineData = [
     mainColor: "purple",
     iconColor: "blue",
     author: "Apache Hadoop, SAP HANA",
+  },
+  {
+    timelabel: "2009",
+    icon: "fas fa-database bg-blue",
+    resaltHeader: "Surgimiento de MongoDB",
+    header: "Lanzamiento de MongoDB",
+    text: "MongoDB, una base de datos NoSQL orientada a documentos, es lanzada por la compañía 10gen (ahora MongoDB Inc.), ofreciendo escalabilidad y flexibilidad para el almacenamiento de datos no estructurados.",
+    images:["/img/Mongodb.webp"],
+    mainColor: "orange",
+    iconColor: "blue",
+    author: "10gen (MongoDB Inc.)"
   },
   // Añade más objetos según sea necesario
 ];
